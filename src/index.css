@@ -1,0 +1,44 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+#app{
+    /* background: skyblue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-palta{
+    background-color: rgba(230, 249, 120, 0.309);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0, 0.5);
+}
+.container-palta:hover{
+    cursor: pointer;
+    background-color: rgba(230, 249, 120, 0.778);
+}
+
+.container-palta .img-palta{
+    width: 250px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container-palta .text-xl{
+    border-top: 1px solid gray;
+    
+}
+.text-price{
+    font-size: 1.8rem;
+}
+
+
