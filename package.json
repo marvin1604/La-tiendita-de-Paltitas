@@ -1,4 +1,5 @@
 {
+  "homepage": "https://marvin1604.github.io/La-tiendita-de-Paltitas",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
