@@ -10,7 +10,7 @@ const formatPrice = precio =>{
     const newPrice = new window.Intl.NumberFormat('es-PE', {
         style: "currency",
         currency: "PEN",
-    }).format(precio);
+    }).format(precio*7);
     return newPrice;
 }
 // //web api
@@ -59,7 +59,11 @@ window
         // crear titulo
         const title = document.createElement('h2');
         title.textContent = element.name;
+        console.log(element.name)
         title.className = "text-xl text-green-600";
+        // title.addEventListener("click", () => {
+        //     window.alert("seleccionaste un tipo de palta")
+        // })
 
         //crear precio
         const price = document.createElement('div');
@@ -69,7 +73,6 @@ window
         const container = document.createElement("div");
         container.append(imagen,title,price);
         container.className = "container-palta";
-        
         todosLosItems.push(container);
     });
     appNode.append(...todosLosItems);
