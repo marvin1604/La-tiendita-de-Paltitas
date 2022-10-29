@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://marvin1604.github.io/La-tiendita-de-Paltitas',
   },
 }
